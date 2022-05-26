@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <h1><center>TODO List</center></h1>
+            <div class="note">
+            <h4>Hi 👋 You can add ur todo list.</h4>
+            
+            <label for="Title">Title:</label>
+            <br>
+            <input type="text" id="Title" >
+            <br>
+            <label for="Description">Description:</label>
+            <br>
+            <textarea type="textarea" id="Description" rows="3" placeholder="describe*"></textarea>
+            <br>
+            <button type="submit" id="add" >Add</button>
+            <button type="Clearlist" id="clist" onclick="clist()">Clear List</button>
+        </div>
+        <div id="items">
+            <h2>Your Items</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+                    <tr>
+                        <th>sn</th>
+                        <td>Title</td>
+                        <td>Description</td>
+                        <td><button id="small">❌</button></td>
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

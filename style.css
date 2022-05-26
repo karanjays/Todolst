@@ -1,0 +1,35 @@
+.container
+        {
+            align-items: center;
+            align:center;
+            align-content: center;
+            background-color:hsl(53, 85%, 90%);
+            padding: 5vh;
+            margin: 5vh;
+        }
+        .note{
+            padding: 1vh;
+            margin: 1vh;
+            /* display: flex;
+            justify-content:center; */
+            text-align:center;
+        }
+        .fm{
+            text-align: center;
+            dding-bottom: 0.25rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        #id{
+            withd:
+        }
+        table, th, td {
+            text-align: center;
+        border: 5px solid white;
+        border-collapse: collapse;
+        padding: 2vh;
+        /* border-spacing: 1vh; */
+}
+th, td {
+  background-color: #96D4D4;
+}
